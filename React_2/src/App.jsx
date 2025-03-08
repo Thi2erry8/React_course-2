@@ -6,14 +6,14 @@ import './App.css'
 
 function App() {  
    
-  const isGointOut = false ;
-  let answer = isGointOut === true ? "Yes" : "No" ;
+  const isGointOut = true ;
+  /* let answer = ''  ; */
 
 
   return (
     <main> 
             <h1> Do i feel like doing out tonight ?</h1>
-            <button className=''>{answer}</button>
+            <button className=''>{ isGointOut === true ? "Yes" : "No" }</button>
     </main>
   )
 }
