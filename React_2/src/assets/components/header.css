@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(204, 7%, 85%);
+}
+.logo_text{
+   font-size: 1.5em;
+   color: hsl(0, 0%, 4%);
+}
